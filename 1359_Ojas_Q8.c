@@ -29,7 +29,7 @@ int main()
         bill = 50;
         printf("%d %s %.2f", id, z, bill);
     }
-    else if (bill > 100)
+    else if (bill > 1000)
     {
         bill = bill + 0.15 * bill;
         printf("%d %s %.2f", id, z, bill);
